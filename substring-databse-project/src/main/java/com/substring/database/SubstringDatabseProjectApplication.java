@@ -217,8 +217,6 @@ public class SubstringDatabseProjectApplication implements CommandLineRunner {
             } catch (Exception e) {
                 System.out.println("An error occurred: " + e.getMessage());
             }
-
         }
-
     }
 }

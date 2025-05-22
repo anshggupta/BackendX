@@ -9,7 +9,7 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "products")
 public class Product {
-
+    //primary key Id se map hogi..
     @Id
     @Column(name = "product_id")
     private int id;

@@ -9,7 +9,6 @@ import java.time.LocalDate;
 import java.util.Scanner;
 
 @Component("mySamosa")
-@Scope("application") // prototype scope
 public class Samosa  {
 
     private LocalDate localDate;
