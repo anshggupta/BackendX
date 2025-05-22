@@ -32,5 +32,6 @@ public class SpringJpaExamplesApplication implements CommandLineRunner
         product.setLive(true);
         Product savedProduct = productRepository.save(product);
         System.out.println("Product saved with ID: " + savedProduct.getId());
+
     }
 }
