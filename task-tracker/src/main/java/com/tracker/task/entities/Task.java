@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 public class Task {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // It increments the id value one by one.
     private long id;
 
     @Column(name = "task_name", length = 100, nullable = false)
@@ -19,7 +19,7 @@ public class Task {
     @Column(name = "task_description", length = 5000)
     private String content;
 
-    @Enumerated(EnumType.STRING)
+    @Enumerated(EnumType.STRING)    // Enum means Constants.
     private TaskStatus status = TaskStatus.PENDING;
 
     private LocalDateTime createdAt = LocalDateTime.now();

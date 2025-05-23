@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class CustomTaskRepo {
 
-
+// Object that has methods to interact with dataBase.
     @Autowired
     private EntityManager entityManager;
 
