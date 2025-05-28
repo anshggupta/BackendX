@@ -26,8 +26,6 @@ public class PageController {
     public String about() {
         System.out.println("executing about logic");
         return "about";
-
-
     }
 
 }
