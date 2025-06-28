@@ -19,7 +19,7 @@ public class StationServiceImpl implements StationService {
     private StationRepo stationRepo;
 
     private ModelMapper modelMapper;
-
+//constructor Autowired
     public StationServiceImpl(StationRepo stationRepo, ModelMapper modelMapper) {
         this.stationRepo = stationRepo;
         this.modelMapper = modelMapper;
@@ -57,8 +57,6 @@ public class StationServiceImpl implements StationService {
         station.setState(dto.getState());
         Station updatedStaion = stationRepo.save(station);
         return modelMapper.map(updatedStaion, StationDto.class);
-
-
 
     }
 

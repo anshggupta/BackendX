@@ -29,12 +29,9 @@ public class StationController {
     public ResponseEntity<StationDto> createStation(
             @Valid @RequestBody StationDto stationDto
     ) {
-
         StationDto dto = stationService.createStation(stationDto);
         return new ResponseEntity<>(dto, HttpStatus.CREATED);
-
     }
-
 
     @GetMapping
     public PagedResponse<StationDto> listStations(
@@ -44,16 +41,13 @@ public class StationController {
             @RequestParam(value = "sortDir", defaultValue = "asc") String sortDir
     ) {
 
-
         PagedResponse<StationDto> stationsDto = stationService.listStations(
                 page,
                 size,
                 sortBy,
                 sortDir
         );
-
         return stationsDto;
-
     }
 
     @GetMapping("/{id}")
@@ -83,3 +77,13 @@ public class StationController {
     }
 
 }
+
+//@RestController
+//Combines @Controller + @ResponseBody.
+//Tells Spring that this class is a web controller,
+//and all return values will be written directly to the HTTP response body (typically JSON).
+
+//@RequestMapping("/admin/stations")
+//Sets the base URL path for all APIs in this controller.
+
+//@RequestBody: Tells Spring to map the incoming JSON request body to the stationDto object.

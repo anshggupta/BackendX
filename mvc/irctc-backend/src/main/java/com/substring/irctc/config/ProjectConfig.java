@@ -11,5 +11,6 @@ public class ProjectConfig {
     public ModelMapper modelMapper(){
         return  new ModelMapper();
     }
-
+//ModelMapper is a popular library used to automatically map fields between objects,
+//typically Entity ↔ DTO (Data Transfer Object).
 }

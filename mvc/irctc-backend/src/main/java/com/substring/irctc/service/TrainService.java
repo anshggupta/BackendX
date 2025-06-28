@@ -60,7 +60,7 @@ public class TrainService {
         Pageable pageable = PageRequest.of(page, size, sort);
         //db se data fetch karne ka logic: we can get train from database
         Page<Train> trainPage = trainRepository.findAll(pageable);
-        //list of train to list of train dtos
+        //list of train to list of train dto
         Page<TrainDTO> trainDTOPage = trainPage.map(train -> modelMapper.map(train, TrainDTO.class));
 
         return PagedResponse.fromPage(trainDTOPage);

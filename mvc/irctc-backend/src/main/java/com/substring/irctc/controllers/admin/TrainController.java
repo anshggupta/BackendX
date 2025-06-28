@@ -10,12 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController("adminTrainController")
 @RequestMapping("/admin/trains")
-
 public class TrainController {
 
-
     //create
-
     @PostMapping
     public ResponseEntity<TrainDTO> createTrain(
             @RequestBody TrainDTO trainDTO

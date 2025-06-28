@@ -61,10 +61,6 @@ public class TrainController {
 //    }
     @GetMapping("/{trainNo}")
     public ResponseEntity<TrainDTO> get(@PathVariable("trainNo") String trainNo) {
-
-        //
-
-
         return new ResponseEntity<>(this.trainService.get(trainNo), HttpStatus.OK);
     }
 
@@ -106,9 +102,7 @@ public class TrainController {
 //        trainList.add(train1);
 //        trainList.add(train2);
 //
-//
-
-    /// /        data
+//        data
 //        return trainList;
 //    }
 //
