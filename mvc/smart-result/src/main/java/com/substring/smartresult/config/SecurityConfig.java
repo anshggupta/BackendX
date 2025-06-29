@@ -12,12 +12,12 @@ import org.springframework.security.web.SecurityFilterChain;
 
 @Configuration
 public class SecurityConfig {
-
+//we can customize our configuration with the help of "HttpSecurity".
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity) throws Exception {
 
         // configuration :
-        // crsf
+        // crsf        use to disable csrf
 //        httpSecurity.csrf(e-> e.disable());
 
         // cors
@@ -25,6 +25,8 @@ public class SecurityConfig {
 
         // pages / apis/ urls
 
+
+                                                                            //request is a Lambda variable.
         httpSecurity.authorizeHttpRequests(request ->
 //                request.requestMatchers("/login", "/about", "/").permitAll()
 //                        .anyRequest().authenticated()

@@ -18,7 +18,7 @@ public class CustomUserDetailService  implements UserDetailsService {
         // load user from database
                 UserDetails user1 = User.builder()
                 .username("sahil")
-                .password("{noop}sahi123")
+                .password("{noop}sahil123")
                 .build();
 
 //        UserDetails user2 = User.builder()
