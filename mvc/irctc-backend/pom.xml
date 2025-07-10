@@ -34,16 +34,43 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
-		<!-- What it does: Adds support for Spring Data JPA (ORM + database interaction).
-			 Use: You can use JpaRepository, write less SQL, and work with DB as Java objects (@Entity).-->
-
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		<!--What it does: Adds support for building REST APIs or web applications.
-			Use: Enables @RestController, @RequestMapping, and embedded Tomcat server.-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt-api -->
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-api</artifactId>
+			<version>0.12.6</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-impl</artifactId>
+			<version>0.12.6</version>
+			<scope>runtime</scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt-jackson -->
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-jackson</artifactId>
+			<version>0.12.6</version>
+			<scope>runtime</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+			<version>2.8.9</version>
+		</dependency>
+
 
 
 		<dependency>
@@ -51,26 +78,17 @@
 			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-		<!--What it does: JDBC driver to connect Spring Boot with MySQL database.
-			Use: Enables your app to talk to the MySQL DB configured in application.properties.-->
-
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-validation</artifactId>
 		</dependency>
-		<!--What it does: Adds support for Java Bean Validation (@NotNull, @Email, @Size, etc.).
-			Use: Used to validate user input in DTOs or request bodies.-->
-
 
 		<dependency>
 			<groupId>org.modelmapper</groupId>
 			<artifactId>modelmapper</artifactId>
 			<version>3.0.0</version>
 		</dependency>
-		<!--What it does: Maps one Java object to another (e.g., Entity ↔ DTO).
-			Use: Cleanly separate database models from data exposed to clients (APIs).-->
-
 
 		<dependency>
 			<groupId>org.projectlombok</groupId>
@@ -78,8 +96,7 @@
 			<version>1.18.38</version>
 			<scope>provided</scope>
 		</dependency>
-		<!--What it does: Removes boilerplate code using annotations like @Getter, @Setter, @Builder.
-			Use: Saves time writing getters, setters, constructors, etc.-->
+
 
 
 
