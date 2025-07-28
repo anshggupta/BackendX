@@ -1,0 +1,783 @@
+2025-06-26 19:21:58.280 - DBeaver 25.1.1.202506221557 is starting
+2025-06-26 19:21:58.283 - OS: Windows 10 10.0 (amd64)
+2025-06-26 19:21:58.283 - Java version: 21.0.5 by Eclipse Adoptium (64bit)
+2025-06-26 19:21:58.284 - Install path: 'D:\DBeaver'
+2025-06-26 19:21:58.285 - Instance path: 'file:/D:/BackendX/backendX-2405/mvc/'
+2025-06-26 19:21:58.290 - Memory available 64Mb/1024Mb
+2025-06-26 19:21:58.324 - Create display
+> Start Eclipse IDE UI [org.eclipse.ui.ide 3.22.600.v20250523-1502]
+2025-06-26 19:21:58.593 - Initialize desktop platform...
+2025-06-26 19:21:58.840 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.11.200.v20250513-1234]
+> Start Core Resource Management [org.eclipse.core.resources 3.22.200.v20250513-1234]
+> Start Team Support Core [org.eclipse.team.core 3.10.700.v20250313-0656]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.157.202506221557]
+2025-06-26 19:21:59.350 - Initialize base platform...
+2025-06-26 19:21:59.411 - Platform initialized (818ms)
+2025-06-26 19:21:59.508 - Starting instance server at http://localhost:52929
+2025-06-26 19:21:59.520 - Run workbench
+> Start Eclipse e4 Workbench SWT [org.eclipse.e4.ui.workbench.swt 0.17.800.v20250422-1254]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.5.200.v20250326-1945]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.500.v20250123-0754]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.800.v20250422-1254]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.600.v20250331-1050]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.600.v20250307-1331]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.39.0.v20250414-1351]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.500.v20250213-1508]
+> Start Eclipse e4 Workbench Add-ons [org.eclipse.e4.ui.workbench.addons.swt 1.5.700.v20250422-1254]
+> Start Eclipse e4 Workbench SWT Renderer [org.eclipse.e4.ui.workbench.renderers.swt 0.16.800.v20250519-1609]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.300.v20240413-1529]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.600.v20250409-1135]
+2025-06-26 19:22:02.568 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.147.202506221557]
+2025-06-26 19:22:02.983 - Total database drivers: 124 (124)
+> Start Help System Core [org.eclipse.help 3.10.500.v20250423-1201]
+> Start Default Text Editor [org.eclipse.ui.editors 3.20.0.v20250514-1719]
+> Start Text Editor Framework [org.eclipse.ui.workbench.texteditor 3.19.200.v20250514-1719]
+2025-06-26 19:22:03.264 - Create actions
+2025-06-26 19:22:03.295 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2025-06-26 19:22:03.295 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2025-06-26 19:22:03.296 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2025-06-26 19:22:03.296 - Create workbench actions
+2025-06-26 19:22:06.061 - Initialize workbench window
+2025-06-26 19:22:06.067 - Finish initialization
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.157.202506221557]
+> Start Equinox Java Authentication and Authorization Service (JAAS) [org.eclipse.equinox.security 1.4.600.v20250521-0413]
+> Start Internet Connection Management UI [org.eclipse.ui.net 1.5.400.v20240413-1529]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.700.v20250313-0656]
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.157.202506221557]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.20.0.202505280821]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.22.0.202505280821]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.117.202506221557]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.117.202506221557]
+> Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.154.202506221557]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ui.config.sample 1.0.194.202506221557]
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.50.202506221557]
+> Start DBeaver Generic Plug-in [org.jkiss.dbeaver.ext.generic 2.3.243.202506221557]
+> Start DBeaver SQLite Model [org.jkiss.dbeaver.ext.sqlite 1.0.206.202506221557]
+2025-06-26 19:22:14.635 - Open [https://dbeaver.io/product/version.xml]
+2025-06-26 19:22:19.111 - Open [https://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/maven-metadata.xml]
+2025-06-26 19:22:19.771 - Exception during a connection to https://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/maven-metadata.xml
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(Unknown Source)
+	at java.base/sun.security.ssl.CertificateStatus$CertificateStatusConsumer.consume(Unknown Source)
+	at java.base/sun.security.ssl.SSLHandshake.consume(Unknown Source)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(Unknown Source)
+	at org.jkiss.dbeaver.runtime.WebUtils.openURLConnection(WebUtils.java:155)
+	at org.jkiss.dbeaver.runtime.WebUtils.openConnection(WebUtils.java:63)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.loadMetadata(MavenArtifact.java:111)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.loadMetadata(MavenArtifact.java:94)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.resolveVersion(MavenArtifact.java:376)
+	at org.jkiss.dbeaver.registry.maven.MavenRepository.findArtifact(MavenRepository.java:206)
+	at org.jkiss.dbeaver.registry.maven.MavenRegistry.findInRepositories(MavenRegistry.java:248)
+	at org.jkiss.dbeaver.registry.maven.MavenRegistry.findArtifact(MavenRegistry.java:199)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.getArtifactVersion(DriverLibraryMavenArtifact.java:216)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.resolveLocalVersion(DriverLibraryMavenArtifact.java:354)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.getDependencies(DriverLibraryMavenArtifact.java:256)
+	at org.jkiss.dbeaver.registry.driver.DriverDependencies.resolveDependencies(DriverDependencies.java:107)
+	at org.jkiss.dbeaver.registry.driver.DriverDependencies.resolveDependencies(DriverDependencies.java:57)
+	at org.jkiss.dbeaver.ui.dialogs.driver.DriverDependenciesTree.lambda$0(DriverDependenciesTree.java:131)
+	at org.jkiss.dbeaver.runtime.RunnableContextDelegate.lambda$0(RunnableContextDelegate.java:39)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.validator.PKIXValidator.doBuild(Unknown Source)
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at java.base/sun.security.validator.Validator.validate(Unknown Source)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 30 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
+	at java.base/java.security.cert.CertPathBuilder.build(Unknown Source)
+	... 35 more
+2025-06-26 19:22:19.776 - Open [https://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/]
+2025-06-26 19:22:20.215 - Exception during a connection to https://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(Unknown Source)
+	at java.base/sun.security.ssl.CertificateStatus$CertificateStatusConsumer.consume(Unknown Source)
+	at java.base/sun.security.ssl.SSLHandshake.consume(Unknown Source)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(Unknown Source)
+	at org.jkiss.dbeaver.runtime.WebUtils.openURLConnection(WebUtils.java:155)
+	at org.jkiss.dbeaver.runtime.WebUtils.openConnection(WebUtils.java:63)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.loadMetadata(MavenArtifact.java:117)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.loadMetadata(MavenArtifact.java:94)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.resolveVersion(MavenArtifact.java:376)
+	at org.jkiss.dbeaver.registry.maven.MavenRepository.findArtifact(MavenRepository.java:206)
+	at org.jkiss.dbeaver.registry.maven.MavenRegistry.findInRepositories(MavenRegistry.java:248)
+	at org.jkiss.dbeaver.registry.maven.MavenRegistry.findArtifact(MavenRegistry.java:199)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.getArtifactVersion(DriverLibraryMavenArtifact.java:216)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.resolveLocalVersion(DriverLibraryMavenArtifact.java:354)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.getDependencies(DriverLibraryMavenArtifact.java:256)
+	at org.jkiss.dbeaver.registry.driver.DriverDependencies.resolveDependencies(DriverDependencies.java:107)
+	at org.jkiss.dbeaver.registry.driver.DriverDependencies.resolveDependencies(DriverDependencies.java:57)
+	at org.jkiss.dbeaver.ui.dialogs.driver.DriverDependenciesTree.lambda$0(DriverDependenciesTree.java:131)
+	at org.jkiss.dbeaver.runtime.RunnableContextDelegate.lambda$0(RunnableContextDelegate.java:39)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.validator.PKIXValidator.doBuild(Unknown Source)
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at java.base/sun.security.validator.Validator.validate(Unknown Source)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 30 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
+	at java.base/java.security.cert.CertPathBuilder.build(Unknown Source)
+	... 35 more
+2025-06-26 19:22:20.220 - Maven artifact 'org.xerial:sqlite-jdbc:RELEASE' not found in repository 'https://repo1.maven.org/maven2/': Exception during a connection to https://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/
+2025-06-26 19:22:20.220 - Open [https://oss.sonatype.org/content/repositories/snapshots/org/xerial/sqlite-jdbc/maven-metadata.xml]
+2025-06-26 19:22:21.403 - Open [https://oss.sonatype.org/content/repositories/snapshots/org/xerial/sqlite-jdbc//sqlite-jdbc-.pom]
+2025-06-26 19:22:21.703 - Exception during a connection to https://oss.sonatype.org/content/repositories/snapshots/org/xerial/sqlite-jdbc//sqlite-jdbc-.pom
+java.io.IOException: Can't open 'https://oss.sonatype.org/content/repositories/snapshots/org/xerial/sqlite-jdbc//sqlite-jdbc-.pom': Bad Request
+	at org.jkiss.dbeaver.runtime.WebUtils.openURLConnection(WebUtils.java:163)
+	at org.jkiss.dbeaver.runtime.WebUtils.openConnection(WebUtils.java:63)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifactVersion.cachePOM(MavenArtifactVersion.java:281)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifactVersion.loadPOM(MavenArtifactVersion.java:302)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifactVersion.<init>(MavenArtifactVersion.java:107)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.makeLocalVersion(MavenArtifact.java:353)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.resolveVersion(MavenArtifact.java:435)
+	at org.jkiss.dbeaver.registry.maven.MavenRepository.findArtifact(MavenRepository.java:206)
+	at org.jkiss.dbeaver.registry.maven.MavenRegistry.findInRepositories(MavenRegistry.java:248)
+	at org.jkiss.dbeaver.registry.maven.MavenRegistry.findArtifact(MavenRegistry.java:199)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.getArtifactVersion(DriverLibraryMavenArtifact.java:216)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.resolveLocalVersion(DriverLibraryMavenArtifact.java:354)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.getDependencies(DriverLibraryMavenArtifact.java:256)
+	at org.jkiss.dbeaver.registry.driver.DriverDependencies.resolveDependencies(DriverDependencies.java:107)
+	at org.jkiss.dbeaver.registry.driver.DriverDependencies.resolveDependencies(DriverDependencies.java:57)
+	at org.jkiss.dbeaver.ui.dialogs.driver.DriverDependenciesTree.lambda$0(DriverDependenciesTree.java:131)
+	at org.jkiss.dbeaver.runtime.RunnableContextDelegate.lambda$0(RunnableContextDelegate.java:39)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+2025-06-26 19:22:21.705 - Error loading version info: Exception during a connection to https://oss.sonatype.org/content/repositories/snapshots/org/xerial/sqlite-jdbc//sqlite-jdbc-.pom
+2025-06-26 19:22:21.705 - Open [file:/D:/DBeaver/maven-local/org/xerial/sqlite-jdbc/maven-metadata.xml]
+2025-06-26 19:22:21.706 - Exception during a connection to file:/D:/DBeaver/maven-local/org/xerial/sqlite-jdbc/maven-metadata.xml
+java.io.FileNotFoundException: D:\DBeaver\maven-local\org\xerial\sqlite-jdbc\maven-metadata.xml (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(Unknown Source)
+	at java.base/java.io.FileInputStream.<init>(Unknown Source)
+	at java.base/java.io.FileInputStream.<init>(Unknown Source)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(Unknown Source)
+	at org.jkiss.dbeaver.runtime.WebUtils.openURLConnection(WebUtils.java:155)
+	at org.jkiss.dbeaver.runtime.WebUtils.openConnection(WebUtils.java:63)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.loadMetadata(MavenArtifact.java:111)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.loadMetadata(MavenArtifact.java:94)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.resolveVersion(MavenArtifact.java:376)
+	at org.jkiss.dbeaver.registry.maven.MavenRepository.findArtifact(MavenRepository.java:206)
+	at org.jkiss.dbeaver.registry.maven.MavenRegistry.findInRepositories(MavenRegistry.java:267)
+	at org.jkiss.dbeaver.registry.maven.MavenRegistry.findArtifact(MavenRegistry.java:199)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.getArtifactVersion(DriverLibraryMavenArtifact.java:216)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.resolveLocalVersion(DriverLibraryMavenArtifact.java:354)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.getDependencies(DriverLibraryMavenArtifact.java:256)
+	at org.jkiss.dbeaver.registry.driver.DriverDependencies.resolveDependencies(DriverDependencies.java:107)
+	at org.jkiss.dbeaver.registry.driver.DriverDependencies.resolveDependencies(DriverDependencies.java:57)
+	at org.jkiss.dbeaver.ui.dialogs.driver.DriverDependenciesTree.lambda$0(DriverDependenciesTree.java:131)
+	at org.jkiss.dbeaver.runtime.RunnableContextDelegate.lambda$0(RunnableContextDelegate.java:39)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+2025-06-26 19:22:21.707 - Open [file:/D:/DBeaver/maven-local/org/xerial/sqlite-jdbc/]
+2025-06-26 19:22:21.708 - Exception during a connection to file:/D:/DBeaver/maven-local/org/xerial/sqlite-jdbc/
+java.io.FileNotFoundException: D:\DBeaver\maven-local\org\xerial\sqlite-jdbc (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(Unknown Source)
+	at java.base/java.io.FileInputStream.<init>(Unknown Source)
+	at java.base/java.io.FileInputStream.<init>(Unknown Source)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(Unknown Source)
+	at org.jkiss.dbeaver.runtime.WebUtils.openURLConnection(WebUtils.java:155)
+	at org.jkiss.dbeaver.runtime.WebUtils.openConnection(WebUtils.java:63)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.loadMetadata(MavenArtifact.java:117)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.loadMetadata(MavenArtifact.java:94)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.resolveVersion(MavenArtifact.java:376)
+	at org.jkiss.dbeaver.registry.maven.MavenRepository.findArtifact(MavenRepository.java:206)
+	at org.jkiss.dbeaver.registry.maven.MavenRegistry.findInRepositories(MavenRegistry.java:267)
+	at org.jkiss.dbeaver.registry.maven.MavenRegistry.findArtifact(MavenRegistry.java:199)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.getArtifactVersion(DriverLibraryMavenArtifact.java:216)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.resolveLocalVersion(DriverLibraryMavenArtifact.java:354)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.getDependencies(DriverLibraryMavenArtifact.java:256)
+	at org.jkiss.dbeaver.registry.driver.DriverDependencies.resolveDependencies(DriverDependencies.java:107)
+	at org.jkiss.dbeaver.registry.driver.DriverDependencies.resolveDependencies(DriverDependencies.java:57)
+	at org.jkiss.dbeaver.ui.dialogs.driver.DriverDependenciesTree.lambda$0(DriverDependenciesTree.java:131)
+	at org.jkiss.dbeaver.runtime.RunnableContextDelegate.lambda$0(RunnableContextDelegate.java:39)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+2025-06-26 19:22:21.709 - Maven artifact 'org.xerial:sqlite-jdbc:RELEASE' not found in repository 'file:/D:/DBeaver/maven-local/': Exception during a connection to file:/D:/DBeaver/maven-local/org/xerial/sqlite-jdbc/
+2025-06-26 19:22:21.710 - Maven artifact 'org.xerial:sqlite-jdbc:RELEASE' not found in any available repository.
+2025-06-26 19:22:26.632 - Connect with 'DBeaver Sample Database (SQLite)' (dbeaver-sample-database-sqlite-1)
+2025-06-26 19:22:26.783 - Execution context opened (DBeaver Sample Database (SQLite); Main; 0)
+> Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.149.202506221557]
+> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.242.202506221557]
+2025-06-26 19:23:19.447 - Service 'org.jkiss.dbeaver.ui.UIServiceConnectionEditor' not found
+2025-06-26 19:23:19.760 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2025-06-26 19:23:47.217 - Open [https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0.pom]
+2025-06-26 19:23:47.827 - Exception during a connection to https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0.pom
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(Unknown Source)
+	at java.base/sun.security.ssl.CertificateStatus$CertificateStatusConsumer.consume(Unknown Source)
+	at java.base/sun.security.ssl.SSLHandshake.consume(Unknown Source)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(Unknown Source)
+	at org.jkiss.dbeaver.runtime.WebUtils.openURLConnection(WebUtils.java:155)
+	at org.jkiss.dbeaver.runtime.WebUtils.openConnection(WebUtils.java:63)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifactVersion.cachePOM(MavenArtifactVersion.java:281)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifactVersion.loadPOM(MavenArtifactVersion.java:302)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifactVersion.<init>(MavenArtifactVersion.java:107)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.makeLocalVersion(MavenArtifact.java:353)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.resolveVersion(MavenArtifact.java:435)
+	at org.jkiss.dbeaver.registry.maven.MavenRepository.findArtifact(MavenRepository.java:206)
+	at org.jkiss.dbeaver.registry.maven.MavenRegistry.findInRepositories(MavenRegistry.java:248)
+	at org.jkiss.dbeaver.registry.maven.MavenRegistry.findArtifact(MavenRegistry.java:199)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.getArtifactVersion(DriverLibraryMavenArtifact.java:216)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.resolveLocalVersion(DriverLibraryMavenArtifact.java:354)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.getDependencies(DriverLibraryMavenArtifact.java:256)
+	at org.jkiss.dbeaver.registry.driver.DriverDependencies.resolveDependencies(DriverDependencies.java:107)
+	at org.jkiss.dbeaver.registry.driver.DriverDependencies.resolveDependencies(DriverDependencies.java:57)
+	at org.jkiss.dbeaver.ui.dialogs.driver.DriverDependenciesTree.lambda$0(DriverDependenciesTree.java:131)
+	at org.jkiss.dbeaver.runtime.RunnableContextDelegate.lambda$0(RunnableContextDelegate.java:39)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.validator.PKIXValidator.doBuild(Unknown Source)
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at java.base/sun.security.validator.Validator.validate(Unknown Source)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 32 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
+	at java.base/java.security.cert.CertPathBuilder.build(Unknown Source)
+	... 37 more
+2025-06-26 19:23:47.831 - Error loading version info: Exception during a connection to https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0.pom
+2025-06-26 19:23:47.831 - Open [https://oss.sonatype.org/content/repositories/snapshots/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0.pom]
+2025-06-26 19:23:49.053 - Exception during a connection to https://oss.sonatype.org/content/repositories/snapshots/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0.pom
+java.io.IOException: Can't open 'https://oss.sonatype.org/content/repositories/snapshots/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0.pom': Not Found
+	at org.jkiss.dbeaver.runtime.WebUtils.openURLConnection(WebUtils.java:163)
+	at org.jkiss.dbeaver.runtime.WebUtils.openConnection(WebUtils.java:63)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifactVersion.cachePOM(MavenArtifactVersion.java:281)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifactVersion.loadPOM(MavenArtifactVersion.java:302)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifactVersion.<init>(MavenArtifactVersion.java:107)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.makeLocalVersion(MavenArtifact.java:353)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.resolveVersion(MavenArtifact.java:435)
+	at org.jkiss.dbeaver.registry.maven.MavenRepository.findArtifact(MavenRepository.java:206)
+	at org.jkiss.dbeaver.registry.maven.MavenRegistry.findInRepositories(MavenRegistry.java:248)
+	at org.jkiss.dbeaver.registry.maven.MavenRegistry.findArtifact(MavenRegistry.java:199)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.getArtifactVersion(DriverLibraryMavenArtifact.java:216)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.resolveLocalVersion(DriverLibraryMavenArtifact.java:354)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.getDependencies(DriverLibraryMavenArtifact.java:256)
+	at org.jkiss.dbeaver.registry.driver.DriverDependencies.resolveDependencies(DriverDependencies.java:107)
+	at org.jkiss.dbeaver.registry.driver.DriverDependencies.resolveDependencies(DriverDependencies.java:57)
+	at org.jkiss.dbeaver.ui.dialogs.driver.DriverDependenciesTree.lambda$0(DriverDependenciesTree.java:131)
+	at org.jkiss.dbeaver.runtime.RunnableContextDelegate.lambda$0(RunnableContextDelegate.java:39)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+2025-06-26 19:23:49.054 - Error loading version info: Exception during a connection to https://oss.sonatype.org/content/repositories/snapshots/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0.pom
+2025-06-26 19:23:49.055 - Error loading version info: D:\DBeaver\maven-local\com\mysql\mysql-connector-j\8.2.0\mysql-connector-j-8.2.0.pom
+2025-06-26 19:23:49.055 - Maven artifact 'com.mysql:mysql-connector-j:RELEASE' not found in any available repository.
+2025-06-26 19:24:05.862 - Connect with 'localhost' (mysql8-197ac83aa0c-32b0babd0d572382)
+2025-06-26 19:24:05.875 - Execution context opened (localhost; Main; 1)
+2025-06-26 19:24:27.595 - Error setting MySQL zeroDateTimeBehavior property default
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.181.202506221557]
+2025-06-26 19:25:02.417 - Connect with 'localhost' (mysql8-197ac83aa0c-32b0babd0d572382)
+2025-06-26 19:25:02.423 - Execution context opened (localhost; Main; 2)
+2025-06-26 19:25:04.457 - Error setting MySQL zeroDateTimeBehavior property default
+2025-06-26 19:25:17.270 - Open [https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0.pom]
+2025-06-26 19:25:17.838 - Exception during a connection to https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0.pom
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(Unknown Source)
+	at java.base/sun.security.ssl.CertificateStatus$CertificateStatusConsumer.consume(Unknown Source)
+	at java.base/sun.security.ssl.SSLHandshake.consume(Unknown Source)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(Unknown Source)
+	at org.jkiss.dbeaver.runtime.WebUtils.openURLConnection(WebUtils.java:155)
+	at org.jkiss.dbeaver.runtime.WebUtils.openConnection(WebUtils.java:63)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifactVersion.cachePOM(MavenArtifactVersion.java:281)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifactVersion.loadPOM(MavenArtifactVersion.java:302)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifactVersion.<init>(MavenArtifactVersion.java:107)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.makeLocalVersion(MavenArtifact.java:353)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.resolveVersion(MavenArtifact.java:435)
+	at org.jkiss.dbeaver.registry.maven.MavenRepository.findArtifact(MavenRepository.java:206)
+	at org.jkiss.dbeaver.registry.maven.MavenRegistry.findInRepositories(MavenRegistry.java:248)
+	at org.jkiss.dbeaver.registry.maven.MavenRegistry.findArtifact(MavenRegistry.java:199)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.getArtifactVersion(DriverLibraryMavenArtifact.java:216)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.resolveLocalVersion(DriverLibraryMavenArtifact.java:354)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.getDependencies(DriverLibraryMavenArtifact.java:256)
+	at org.jkiss.dbeaver.registry.driver.DriverDependencies.resolveDependencies(DriverDependencies.java:107)
+	at org.jkiss.dbeaver.registry.driver.DriverDependencies.resolveDependencies(DriverDependencies.java:57)
+	at org.jkiss.dbeaver.ui.dialogs.driver.DriverDependenciesTree.lambda$0(DriverDependenciesTree.java:131)
+	at org.jkiss.dbeaver.runtime.RunnableContextDelegate.lambda$0(RunnableContextDelegate.java:39)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.validator.PKIXValidator.doBuild(Unknown Source)
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at java.base/sun.security.validator.Validator.validate(Unknown Source)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 32 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
+	at java.base/java.security.cert.CertPathBuilder.build(Unknown Source)
+	... 37 more
+2025-06-26 19:25:17.842 - Error loading version info: Exception during a connection to https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0.pom
+2025-06-26 19:25:17.843 - Open [https://oss.sonatype.org/content/repositories/snapshots/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0.pom]
+2025-06-26 19:25:19.681 - Exception during a connection to https://oss.sonatype.org/content/repositories/snapshots/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0.pom
+java.io.IOException: Can't open 'https://oss.sonatype.org/content/repositories/snapshots/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0.pom': Not Found
+	at org.jkiss.dbeaver.runtime.WebUtils.openURLConnection(WebUtils.java:163)
+	at org.jkiss.dbeaver.runtime.WebUtils.openConnection(WebUtils.java:63)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifactVersion.cachePOM(MavenArtifactVersion.java:281)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifactVersion.loadPOM(MavenArtifactVersion.java:302)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifactVersion.<init>(MavenArtifactVersion.java:107)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.makeLocalVersion(MavenArtifact.java:353)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.resolveVersion(MavenArtifact.java:435)
+	at org.jkiss.dbeaver.registry.maven.MavenRepository.findArtifact(MavenRepository.java:206)
+	at org.jkiss.dbeaver.registry.maven.MavenRegistry.findInRepositories(MavenRegistry.java:248)
+	at org.jkiss.dbeaver.registry.maven.MavenRegistry.findArtifact(MavenRegistry.java:199)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.getArtifactVersion(DriverLibraryMavenArtifact.java:216)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.resolveLocalVersion(DriverLibraryMavenArtifact.java:354)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.getDependencies(DriverLibraryMavenArtifact.java:256)
+	at org.jkiss.dbeaver.registry.driver.DriverDependencies.resolveDependencies(DriverDependencies.java:107)
+	at org.jkiss.dbeaver.registry.driver.DriverDependencies.resolveDependencies(DriverDependencies.java:57)
+	at org.jkiss.dbeaver.ui.dialogs.driver.DriverDependenciesTree.lambda$0(DriverDependenciesTree.java:131)
+	at org.jkiss.dbeaver.runtime.RunnableContextDelegate.lambda$0(RunnableContextDelegate.java:39)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+2025-06-26 19:25:19.683 - Error loading version info: Exception during a connection to https://oss.sonatype.org/content/repositories/snapshots/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0.pom
+2025-06-26 19:25:19.683 - Error loading version info: D:\DBeaver\maven-local\com\mysql\mysql-connector-j\8.2.0\mysql-connector-j-8.2.0.pom
+2025-06-26 19:25:19.684 - Maven artifact 'com.mysql:mysql-connector-j:RELEASE' not found in any available repository.
+2025-06-26 19:27:06.613 - Service 'org.jkiss.dbeaver.ui.UIServiceConnectionEditor' not found
+2025-06-26 19:27:06.827 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2025-06-26 19:29:08.999 - Connect with 'localhost 2' (mysql8-197ac8721a1-2c52ecc622f8f1b7)
+2025-06-26 19:29:09.002 - Execution context opened (localhost 2; Main; 3)
+2025-06-26 19:29:14.616 - Open [https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/maven-metadata.xml]
+2025-06-26 19:29:15.204 - Exception during a connection to https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/maven-metadata.xml
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(Unknown Source)
+	at java.base/sun.security.ssl.CertificateStatus$CertificateStatusConsumer.consume(Unknown Source)
+	at java.base/sun.security.ssl.SSLHandshake.consume(Unknown Source)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(Unknown Source)
+	at org.jkiss.dbeaver.runtime.WebUtils.openURLConnection(WebUtils.java:155)
+	at org.jkiss.dbeaver.runtime.WebUtils.openConnection(WebUtils.java:63)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.loadMetadata(MavenArtifact.java:111)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.getAvailableVersions(MavenArtifact.java:258)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.getAvailableVersions(DriverLibraryMavenArtifact.java:157)
+	at org.jkiss.dbeaver.ui.dialogs.driver.DriverDependenciesTree.lambda$1(DriverDependenciesTree.java:297)
+	at org.jkiss.dbeaver.runtime.RunnableContextDelegate.lambda$0(RunnableContextDelegate.java:39)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.validator.PKIXValidator.doBuild(Unknown Source)
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at java.base/sun.security.validator.Validator.validate(Unknown Source)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 22 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
+	at java.base/java.security.cert.CertPathBuilder.build(Unknown Source)
+	... 27 more
+2025-06-26 19:29:15.206 - Open [https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/]
+2025-06-26 19:29:15.823 - Exception during a connection to https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(Unknown Source)
+	at java.base/sun.security.ssl.CertificateStatus$CertificateStatusConsumer.consume(Unknown Source)
+	at java.base/sun.security.ssl.SSLHandshake.consume(Unknown Source)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(Unknown Source)
+	at org.jkiss.dbeaver.runtime.WebUtils.openURLConnection(WebUtils.java:155)
+	at org.jkiss.dbeaver.runtime.WebUtils.openConnection(WebUtils.java:63)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.loadMetadata(MavenArtifact.java:117)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.getAvailableVersions(MavenArtifact.java:258)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.getAvailableVersions(DriverLibraryMavenArtifact.java:157)
+	at org.jkiss.dbeaver.ui.dialogs.driver.DriverDependenciesTree.lambda$1(DriverDependenciesTree.java:297)
+	at org.jkiss.dbeaver.runtime.RunnableContextDelegate.lambda$0(RunnableContextDelegate.java:39)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.validator.PKIXValidator.doBuild(Unknown Source)
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at java.base/sun.security.validator.Validator.validate(Unknown Source)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 22 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
+	at java.base/java.security.cert.CertPathBuilder.build(Unknown Source)
+	... 27 more
+2025-06-26 19:29:15.851 - unable to find valid certification path to requested target
+sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
+	at java.base/java.security.cert.CertPathBuilder.build(Unknown Source)
+	at java.base/sun.security.validator.PKIXValidator.doBuild(Unknown Source)
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at java.base/sun.security.validator.Validator.validate(Unknown Source)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	at java.base/sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(Unknown Source)
+	at java.base/sun.security.ssl.CertificateStatus$CertificateStatusConsumer.consume(Unknown Source)
+	at java.base/sun.security.ssl.SSLHandshake.consume(Unknown Source)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(Unknown Source)
+	at org.jkiss.dbeaver.runtime.WebUtils.openURLConnection(WebUtils.java:155)
+	at org.jkiss.dbeaver.runtime.WebUtils.openConnection(WebUtils.java:63)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.loadMetadata(MavenArtifact.java:117)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.getAvailableVersions(MavenArtifact.java:258)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.getAvailableVersions(DriverLibraryMavenArtifact.java:157)
+	at org.jkiss.dbeaver.ui.dialogs.driver.DriverDependenciesTree.lambda$1(DriverDependenciesTree.java:297)
+	at org.jkiss.dbeaver.runtime.RunnableContextDelegate.lambda$0(RunnableContextDelegate.java:39)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+2025-06-26 19:30:08.538 - Error setting MySQL zeroDateTimeBehavior property default
+2025-06-26 19:31:06.639 - Open [https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/maven-metadata.xml]
+2025-06-26 19:31:07.150 - Exception during a connection to https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/maven-metadata.xml
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(Unknown Source)
+	at java.base/sun.security.ssl.CertificateStatus$CertificateStatusConsumer.consume(Unknown Source)
+	at java.base/sun.security.ssl.SSLHandshake.consume(Unknown Source)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(Unknown Source)
+	at org.jkiss.dbeaver.runtime.WebUtils.openURLConnection(WebUtils.java:155)
+	at org.jkiss.dbeaver.runtime.WebUtils.openConnection(WebUtils.java:63)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.loadMetadata(MavenArtifact.java:111)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.getAvailableVersions(MavenArtifact.java:258)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.getAvailableVersions(DriverLibraryMavenArtifact.java:157)
+	at org.jkiss.dbeaver.ui.dialogs.driver.DriverDependenciesTree.lambda$1(DriverDependenciesTree.java:297)
+	at org.jkiss.dbeaver.runtime.RunnableContextDelegate.lambda$0(RunnableContextDelegate.java:39)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.validator.PKIXValidator.doBuild(Unknown Source)
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at java.base/sun.security.validator.Validator.validate(Unknown Source)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 22 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
+	at java.base/java.security.cert.CertPathBuilder.build(Unknown Source)
+	... 27 more
+2025-06-26 19:31:07.152 - Open [https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/]
+2025-06-26 19:31:07.740 - Exception during a connection to https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(Unknown Source)
+	at java.base/sun.security.ssl.CertificateStatus$CertificateStatusConsumer.consume(Unknown Source)
+	at java.base/sun.security.ssl.SSLHandshake.consume(Unknown Source)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(Unknown Source)
+	at org.jkiss.dbeaver.runtime.WebUtils.openURLConnection(WebUtils.java:155)
+	at org.jkiss.dbeaver.runtime.WebUtils.openConnection(WebUtils.java:63)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.loadMetadata(MavenArtifact.java:117)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.getAvailableVersions(MavenArtifact.java:258)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.getAvailableVersions(DriverLibraryMavenArtifact.java:157)
+	at org.jkiss.dbeaver.ui.dialogs.driver.DriverDependenciesTree.lambda$1(DriverDependenciesTree.java:297)
+	at org.jkiss.dbeaver.runtime.RunnableContextDelegate.lambda$0(RunnableContextDelegate.java:39)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.validator.PKIXValidator.doBuild(Unknown Source)
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at java.base/sun.security.validator.Validator.validate(Unknown Source)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 22 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
+	at java.base/java.security.cert.CertPathBuilder.build(Unknown Source)
+	... 27 more
+2025-06-26 19:31:07.763 - unable to find valid certification path to requested target
+sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
+	at java.base/java.security.cert.CertPathBuilder.build(Unknown Source)
+	at java.base/sun.security.validator.PKIXValidator.doBuild(Unknown Source)
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at java.base/sun.security.validator.Validator.validate(Unknown Source)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	at java.base/sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(Unknown Source)
+	at java.base/sun.security.ssl.CertificateStatus$CertificateStatusConsumer.consume(Unknown Source)
+	at java.base/sun.security.ssl.SSLHandshake.consume(Unknown Source)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(Unknown Source)
+	at org.jkiss.dbeaver.runtime.WebUtils.openURLConnection(WebUtils.java:155)
+	at org.jkiss.dbeaver.runtime.WebUtils.openConnection(WebUtils.java:63)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.loadMetadata(MavenArtifact.java:117)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.getAvailableVersions(MavenArtifact.java:258)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.getAvailableVersions(DriverLibraryMavenArtifact.java:157)
+	at org.jkiss.dbeaver.ui.dialogs.driver.DriverDependenciesTree.lambda$1(DriverDependenciesTree.java:297)
+	at org.jkiss.dbeaver.runtime.RunnableContextDelegate.lambda$0(RunnableContextDelegate.java:39)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+2025-06-26 19:31:16.913 - Open [https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0.pom]
+2025-06-26 19:31:18.083 - Exception during a connection to https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0.pom
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(Unknown Source)
+	at java.base/sun.security.ssl.CertificateStatus$CertificateStatusConsumer.consume(Unknown Source)
+	at java.base/sun.security.ssl.SSLHandshake.consume(Unknown Source)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(Unknown Source)
+	at org.jkiss.dbeaver.runtime.WebUtils.openURLConnection(WebUtils.java:155)
+	at org.jkiss.dbeaver.runtime.WebUtils.openConnection(WebUtils.java:63)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifactVersion.cachePOM(MavenArtifactVersion.java:281)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifactVersion.loadPOM(MavenArtifactVersion.java:302)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifactVersion.<init>(MavenArtifactVersion.java:107)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.makeLocalVersion(MavenArtifact.java:353)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.resolveVersion(MavenArtifact.java:435)
+	at org.jkiss.dbeaver.registry.maven.MavenRepository.findArtifact(MavenRepository.java:206)
+	at org.jkiss.dbeaver.registry.maven.MavenRegistry.findInRepositories(MavenRegistry.java:248)
+	at org.jkiss.dbeaver.registry.maven.MavenRegistry.findArtifact(MavenRegistry.java:199)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.getArtifactVersion(DriverLibraryMavenArtifact.java:216)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.resolveLocalVersion(DriverLibraryMavenArtifact.java:354)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.getDependencies(DriverLibraryMavenArtifact.java:256)
+	at org.jkiss.dbeaver.registry.driver.DriverDependencies.resolveDependencies(DriverDependencies.java:107)
+	at org.jkiss.dbeaver.registry.driver.DriverDependencies.resolveDependencies(DriverDependencies.java:57)
+	at org.jkiss.dbeaver.ui.dialogs.driver.DriverDependenciesTree.lambda$0(DriverDependenciesTree.java:131)
+	at org.jkiss.dbeaver.runtime.RunnableContextDelegate.lambda$0(RunnableContextDelegate.java:39)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.validator.PKIXValidator.doBuild(Unknown Source)
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at java.base/sun.security.validator.Validator.validate(Unknown Source)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 32 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
+	at java.base/java.security.cert.CertPathBuilder.build(Unknown Source)
+	... 37 more
+2025-06-26 19:31:18.086 - Error loading version info: Exception during a connection to https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0.pom
+2025-06-26 19:31:18.087 - Open [https://oss.sonatype.org/content/repositories/snapshots/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0.pom]
+2025-06-26 19:31:19.003 - Exception during a connection to https://oss.sonatype.org/content/repositories/snapshots/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0.pom
+java.io.IOException: Can't open 'https://oss.sonatype.org/content/repositories/snapshots/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0.pom': Not Found
+	at org.jkiss.dbeaver.runtime.WebUtils.openURLConnection(WebUtils.java:163)
+	at org.jkiss.dbeaver.runtime.WebUtils.openConnection(WebUtils.java:63)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifactVersion.cachePOM(MavenArtifactVersion.java:281)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifactVersion.loadPOM(MavenArtifactVersion.java:302)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifactVersion.<init>(MavenArtifactVersion.java:107)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.makeLocalVersion(MavenArtifact.java:353)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.resolveVersion(MavenArtifact.java:435)
+	at org.jkiss.dbeaver.registry.maven.MavenRepository.findArtifact(MavenRepository.java:206)
+	at org.jkiss.dbeaver.registry.maven.MavenRegistry.findInRepositories(MavenRegistry.java:248)
+	at org.jkiss.dbeaver.registry.maven.MavenRegistry.findArtifact(MavenRegistry.java:199)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.getArtifactVersion(DriverLibraryMavenArtifact.java:216)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.resolveLocalVersion(DriverLibraryMavenArtifact.java:354)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.getDependencies(DriverLibraryMavenArtifact.java:256)
+	at org.jkiss.dbeaver.registry.driver.DriverDependencies.resolveDependencies(DriverDependencies.java:107)
+	at org.jkiss.dbeaver.registry.driver.DriverDependencies.resolveDependencies(DriverDependencies.java:57)
+	at org.jkiss.dbeaver.ui.dialogs.driver.DriverDependenciesTree.lambda$0(DriverDependenciesTree.java:131)
+	at org.jkiss.dbeaver.runtime.RunnableContextDelegate.lambda$0(RunnableContextDelegate.java:39)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+2025-06-26 19:31:19.005 - Error loading version info: Exception during a connection to https://oss.sonatype.org/content/repositories/snapshots/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0.pom
+2025-06-26 19:31:19.005 - Error loading version info: D:\DBeaver\maven-local\com\mysql\mysql-connector-j\8.2.0\mysql-connector-j-8.2.0.pom
+2025-06-26 19:31:19.005 - Maven artifact 'com.mysql:mysql-connector-j:RELEASE' not found in any available repository.
+2025-06-26 19:34:16.287 - Connect with 'localhost 2' (mysql8-197ac8721a1-2c52ecc622f8f1b7)
+2025-06-26 19:34:16.290 - Execution context opened (localhost 2; Main; 4)
+2025-06-26 19:34:16.292 - Error setting MySQL zeroDateTimeBehavior property default
+2025-06-26 19:34:23.298 - Connect with 'localhost 2' (mysql8-197ac8721a1-2c52ecc622f8f1b7)
+2025-06-26 19:34:23.299 - Execution context opened (localhost 2; Main; 5)
+2025-06-26 19:34:23.301 - Error setting MySQL zeroDateTimeBehavior property default
+2025-06-26 19:35:11.797 - Open [https://dbeaver.io/files/jdbc/drivers/mariadb/client/win/mariadb.exe]
+2025-06-26 19:35:39.749 - Error reading MySQL server version from D:\BackendX\backendX-2405\drivers\clients\mariadb\win\mariadb.exe
+java.io.IOException: Cannot run program "D:\BackendX\backendX-2405\drivers\clients\mariadb\win\mariadb.exe": CreateProcess error=193, %1 is not a valid Win32 application
+	at java.base/java.lang.ProcessBuilder.start(Unknown Source)
+	at java.base/java.lang.ProcessBuilder.start(Unknown Source)
+	at java.base/java.lang.Runtime.exec(Unknown Source)
+	at java.base/java.lang.Runtime.exec(Unknown Source)
+	at org.jkiss.dbeaver.ext.mysql.MySQLDataSourceProvider.getFullServerVersion(MySQLDataSourceProvider.java:289)
+	at org.jkiss.dbeaver.ext.mysql.MySQLDataSourceProvider.getProductVersion(MySQLDataSourceProvider.java:177)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ClientHomesPanel.selectHome(ClientHomesPanel.java:210)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ClientHomesPanel.loadHomes(ClientHomesPanel.java:249)
+	at org.jkiss.dbeaver.ui.dialogs.driver.DriverEditDialog$15.widgetSelected(DriverEditDialog.java:726)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:286)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4338)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1214)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1238)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1223)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:860)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3265)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1900)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:332)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4338)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1214)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4136)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3724)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.jkiss.dbeaver.ui.dialogs.driver.DriverEditDialog.open(DriverEditDialog.java:163)
+	at org.jkiss.dbeaver.ui.dialogs.driver.DriverEditHelpers$BadDriverConfigDialog.lambda$0(DriverEditHelpers.java:270)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4111)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3727)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:312)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:823)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:646)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1604)
+Caused by: java.io.IOException: CreateProcess error=193, %1 is not a valid Win32 application
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.base/java.lang.ProcessImpl.start(Unknown Source)
+	... 51 more
+2025-06-26 19:45:07.519 - Service 'org.jkiss.dbeaver.ui.UIServiceConnectionEditor' not found
+2025-06-26 19:45:07.717 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2025-06-26 19:45:20.773 - Connect with 'localhost' (mysql8-197ac979fe7-79160b46cdeeeb9f)
+2025-06-26 19:45:20.774 - Execution context opened (localhost; Main; 6)
+2025-06-26 19:45:20.775 - Error setting MySQL zeroDateTimeBehavior property default
+2025-06-26 19:46:01.174 - Connect with 'localhost' (mysql8-197ac979fe7-79160b46cdeeeb9f)
+2025-06-26 19:46:01.176 - Execution context opened (localhost; Main; 7)
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+2025-06-26 19:46:01.513 - Execution context opened (localhost; Metadata; 8)
+2025-06-26 19:46:01.645 - Connected (mysql8-197ac979fe7-79160b46cdeeeb9f, MySQL Connector/J [mysql-connector-j-9.3.0 (Revision: 20ef8ee9eb4294a03858acccea0ddad3525f1ff9)])
+2025-06-26 20:05:28.310 - Dispose navigator model
+2025-06-26 20:05:28.505 - DBeaver is stopping
+2025-06-26 20:05:28.506 - Stop instance server
+2025-06-26 20:05:29.545 - DBeaver shutdown completed

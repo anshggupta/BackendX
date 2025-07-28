@@ -1,0 +1,282 @@
+!SESSION 2025-06-26 19:21:55.404 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en
+Framework arguments:  -eclipse.keyring C:\Users\dell\AppData\Roaming\DBeaverData\secure\secure_storage
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\BackendX\backendX-2405\mvc -eclipse.keyring C:\Users\dell\AppData\Roaming\DBeaverData\secure\secure_storage
+
+!ENTRY org.eclipse.ui 2 2 2025-06-26 19:22:06.388
+!MESSAGE Invalid preference category path: org.eclipse.debug.ui.ConsolePreferencePage (bundle: org.eclipse.ui.console, page: org.eclipse.ui.internal.console.ansi.preferences.AnsiConsolePreferencePage)
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2025-06-26 19:22:21.710
+!MESSAGE Maven artifact 'org.xerial:sqlite-jdbc:RELEASE' not found in any available repository.
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2025-06-26 19:23:49.056
+!MESSAGE Maven artifact 'com.mysql:mysql-connector-j:RELEASE' not found in any available repository.
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2025-06-26 19:25:19.684
+!MESSAGE Maven artifact 'com.mysql:mysql-connector-j:RELEASE' not found in any available repository.
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2025-06-26 19:29:15.853
+!MESSAGE unable to find valid certification path to requested target
+!STACK 0
+sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
+	at java.base/java.security.cert.CertPathBuilder.build(Unknown Source)
+	at java.base/sun.security.validator.PKIXValidator.doBuild(Unknown Source)
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at java.base/sun.security.validator.Validator.validate(Unknown Source)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	at java.base/sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(Unknown Source)
+	at java.base/sun.security.ssl.CertificateStatus$CertificateStatusConsumer.consume(Unknown Source)
+	at java.base/sun.security.ssl.SSLHandshake.consume(Unknown Source)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(Unknown Source)
+	at org.jkiss.dbeaver.runtime.WebUtils.openURLConnection(WebUtils.java:155)
+	at org.jkiss.dbeaver.runtime.WebUtils.openConnection(WebUtils.java:63)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.loadMetadata(MavenArtifact.java:117)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.getAvailableVersions(MavenArtifact.java:258)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.getAvailableVersions(DriverLibraryMavenArtifact.java:157)
+	at org.jkiss.dbeaver.ui.dialogs.driver.DriverDependenciesTree.lambda$1(DriverDependenciesTree.java:297)
+	at org.jkiss.dbeaver.runtime.RunnableContextDelegate.lambda$0(RunnableContextDelegate.java:39)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2025-06-26 19:31:07.766
+!MESSAGE unable to find valid certification path to requested target
+!STACK 0
+sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
+	at java.base/java.security.cert.CertPathBuilder.build(Unknown Source)
+	at java.base/sun.security.validator.PKIXValidator.doBuild(Unknown Source)
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at java.base/sun.security.validator.Validator.validate(Unknown Source)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	at java.base/sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(Unknown Source)
+	at java.base/sun.security.ssl.CertificateStatus$CertificateStatusConsumer.consume(Unknown Source)
+	at java.base/sun.security.ssl.SSLHandshake.consume(Unknown Source)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(Unknown Source)
+	at org.jkiss.dbeaver.runtime.WebUtils.openURLConnection(WebUtils.java:155)
+	at org.jkiss.dbeaver.runtime.WebUtils.openConnection(WebUtils.java:63)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.loadMetadata(MavenArtifact.java:117)
+	at org.jkiss.dbeaver.registry.maven.MavenArtifact.getAvailableVersions(MavenArtifact.java:258)
+	at org.jkiss.dbeaver.registry.driver.DriverLibraryMavenArtifact.getAvailableVersions(DriverLibraryMavenArtifact.java:157)
+	at org.jkiss.dbeaver.ui.dialogs.driver.DriverDependenciesTree.lambda$1(DriverDependenciesTree.java:297)
+	at org.jkiss.dbeaver.runtime.RunnableContextDelegate.lambda$0(RunnableContextDelegate.java:39)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2025-06-26 19:31:19.006
+!MESSAGE Maven artifact 'com.mysql:mysql-connector-j:RELEASE' not found in any available repository.
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2025-06-26 19:35:39.752
+!MESSAGE Error reading MySQL server version from D:\BackendX\backendX-2405\drivers\clients\mariadb\win\mariadb.exe
+!SUBENTRY 1 org.jkiss.dbeaver.model 2 0 2025-06-26 19:35:39.752
+!MESSAGE Cannot run program "D:\BackendX\backendX-2405\drivers\clients\mariadb\win\mariadb.exe": CreateProcess error=193, %1 is not a valid Win32 application
+!SUBENTRY 2 org.jkiss.dbeaver.model 2 0 2025-06-26 19:35:39.752
+!MESSAGE CreateProcess error=193, %1 is not a valid Win32 application
+!STACK 0
+java.io.IOException: CreateProcess error=193, %1 is not a valid Win32 application
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.base/java.lang.ProcessImpl.start(Unknown Source)
+	at java.base/java.lang.ProcessBuilder.start(Unknown Source)
+	at java.base/java.lang.ProcessBuilder.start(Unknown Source)
+	at java.base/java.lang.Runtime.exec(Unknown Source)
+	at java.base/java.lang.Runtime.exec(Unknown Source)
+	at org.jkiss.dbeaver.ext.mysql.MySQLDataSourceProvider.getFullServerVersion(MySQLDataSourceProvider.java:289)
+	at org.jkiss.dbeaver.ext.mysql.MySQLDataSourceProvider.getProductVersion(MySQLDataSourceProvider.java:177)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ClientHomesPanel.selectHome(ClientHomesPanel.java:210)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ClientHomesPanel.loadHomes(ClientHomesPanel.java:249)
+	at org.jkiss.dbeaver.ui.dialogs.driver.DriverEditDialog$15.widgetSelected(DriverEditDialog.java:726)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:286)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4338)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1214)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1238)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1223)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:860)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3265)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1900)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:332)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4338)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1214)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4136)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3724)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.jkiss.dbeaver.ui.dialogs.driver.DriverEditDialog.open(DriverEditDialog.java:163)
+	at org.jkiss.dbeaver.ui.dialogs.driver.DriverEditHelpers$BadDriverConfigDialog.lambda$0(DriverEditHelpers.java:270)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4111)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3727)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:312)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:823)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:646)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1604)
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2025-06-26 20:05:30.733
+!MESSAGE Some data source listeners are still registered: org.jkiss.dbeaver.ui.dialogs.connection.AuthModelSelector:AuthModelSelector {*Disposed*} [layout=null],org.jkiss.dbeaver.ui.dialogs.connection.AuthModelSelector:AuthModelSelector {*Disposed*} [layout=null],org.jkiss.dbeaver.ui.dialogs.connection.AuthModelSelector:AuthModelSelector {*Disposed*} [layout=null]
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2025-06-26 20:05:31.020
+!MESSAGE SWT resource leak detected
+!SUBENTRY 1 org.jkiss.dbeaver.model 2 0 2025-06-26 20:05:31.020
+!MESSAGE SWT Resource was not properly disposed
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:191)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:124)
+	at org.eclipse.swt.graphics.Cursor.<init>(Cursor.java:269)
+	at org.eclipse.swt.graphics.Cursor.win32_getHandle(Cursor.java:376)
+	at org.eclipse.swt.widgets.Control.WM_SETCURSOR(Control.java:5477)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4850)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:336)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5106)
+	at org.eclipse.swt.internal.win32.OS.SendMessage(Native Method)
+	at org.eclipse.swt.widgets.Control.setCursor(Control.java:3294)
+	at org.eclipse.swt.widgets.Control.setCursor(Control.java:3332)
+	at org.eclipse.draw2d.SWTEventDispatcher.setCursor(SWTEventDispatcher.java:512)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.setCursor(DomainEventDispatcher.java:538)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.setOverrideCursor(DomainEventDispatcher.java:565)
+	at org.eclipse.gef.ui.parts.GraphicalViewerImpl.setCursor(GraphicalViewerImpl.java:355)
+	at org.eclipse.gef.tools.AbstractTool.setCursor(AbstractTool.java:1413)
+	at org.eclipse.gef.tools.AbstractTool.refreshCursor(AbstractTool.java:1360)
+	at org.eclipse.gef.tools.AbstractTool.setViewer(AbstractTool.java:1552)
+	at org.eclipse.gef.tools.SelectionTool.setDragTracker(SelectionTool.java:662)
+	at org.eclipse.gef.tools.SelectionTool.handleButtonDown(SelectionTool.java:214)
+	at org.eclipse.gef.tools.AbstractTool.mouseDown(AbstractTool.java:1100)
+	at org.eclipse.gef.tools.SelectionTool.mouseDown(SelectionTool.java:534)
+	at org.eclipse.gef.EditDomain.mouseDown(EditDomain.java:236)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMousePressed(DomainEventDispatcher.java:396)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseDown(LightweightSystem.java:568)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:230)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4338)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1214)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4136)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3724)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:312)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:823)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:646)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1604)
+!SESSION 2025-06-28 15:12:45.538 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en
+Framework arguments:  -eclipse.keyring C:\Users\dell\AppData\Roaming\DBeaverData\secure\secure_storage
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -eclipse.keyring C:\Users\dell\AppData\Roaming\DBeaverData\secure\secure_storage
+
+!ENTRY org.eclipse.ui 2 2 2025-06-28 15:13:29.406
+!MESSAGE Invalid preference category path: org.eclipse.debug.ui.ConsolePreferencePage (bundle: org.eclipse.ui.console, page: org.eclipse.ui.internal.console.ansi.preferences.AnsiConsolePreferencePage)
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2025-06-28 15:49:17.435
+!MESSAGE SWT resource leak detected
+!SUBENTRY 1 org.jkiss.dbeaver.model 2 0 2025-06-28 15:49:17.436
+!MESSAGE SWT Resource was not properly disposed
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:191)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:124)
+	at org.eclipse.swt.graphics.Cursor.<init>(Cursor.java:269)
+	at org.eclipse.swt.graphics.Cursor.win32_getHandle(Cursor.java:376)
+	at org.eclipse.swt.widgets.Control.WM_SETCURSOR(Control.java:5477)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4850)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:336)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5106)
+	at org.eclipse.swt.internal.win32.OS.SendMessage(Native Method)
+	at org.eclipse.swt.widgets.Control.setCursor(Control.java:3294)
+	at org.eclipse.swt.widgets.Control.setCursor(Control.java:3332)
+	at org.eclipse.draw2d.SWTEventDispatcher.setCursor(SWTEventDispatcher.java:512)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.setCursor(DomainEventDispatcher.java:538)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.setOverrideCursor(DomainEventDispatcher.java:565)
+	at org.eclipse.gef.ui.parts.GraphicalViewerImpl.setCursor(GraphicalViewerImpl.java:355)
+	at org.eclipse.gef.tools.AbstractTool.setCursor(AbstractTool.java:1413)
+	at org.eclipse.gef.tools.AbstractTool.refreshCursor(AbstractTool.java:1360)
+	at org.eclipse.gef.tools.AbstractTool.setViewer(AbstractTool.java:1552)
+	at org.eclipse.gef.tools.SelectionTool.setDragTracker(SelectionTool.java:662)
+	at org.eclipse.gef.tools.SelectionTool.handleButtonDown(SelectionTool.java:214)
+	at org.eclipse.gef.tools.AbstractTool.mouseDown(AbstractTool.java:1100)
+	at org.eclipse.gef.tools.SelectionTool.mouseDown(SelectionTool.java:534)
+	at org.eclipse.gef.EditDomain.mouseDown(EditDomain.java:236)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMousePressed(DomainEventDispatcher.java:396)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseDown(LightweightSystem.java:568)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:230)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4338)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1214)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4136)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3724)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:312)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:823)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:646)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1604)

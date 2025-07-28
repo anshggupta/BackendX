@@ -1,0 +1,38 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-197ac979fe7-79160b46cdeeeb9f": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "localhost",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
+				"configurationType": "MANUAL",
+				"home": "mariadb_client",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		}
+	},
+	"virtual-models": {"mysql8-197ac979fe7-79160b46cdeeeb9f":{"backendx_irctc":{"@properties":{"erd.diagram.state":{"serialized":"\u003cdiagram version\u003d\"1\" name\u003d\"empty\" time\u003d\"202506261947\"\u003e\u003centities\u003e\u003cdata-source id\u003d\"mysql8-197ac979fe7-79160b46cdeeeb9f\"\u003e\u003centity id\u003d\"1\" name\u003d\"booking_passengers\" fq-name\u003d\"backendx_irctc.booking_passengers\" order\u003d\"0\" x\u003d\"40\" y\u003d\"60\"\u003e\u003cpath name\u003d\"backendx_irctc\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"2\" name\u003d\"bookings\" fq-name\u003d\"backendx_irctc.bookings\" order\u003d\"1\" x\u003d\"249\" y\u003d\"137\"\u003e\u003cpath name\u003d\"backendx_irctc\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"3\" name\u003d\"payments\" fq-name\u003d\"backendx_irctc.payments\" order\u003d\"2\" x\u003d\"40\" y\u003d\"284\"\u003e\u003cpath name\u003d\"backendx_irctc\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"4\" name\u003d\"stations\" fq-name\u003d\"backendx_irctc.stations\" order\u003d\"3\" x\u003d\"939\" y\u003d\"208\"\u003e\u003cpath name\u003d\"backendx_irctc\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"5\" name\u003d\"train_image\" fq-name\u003d\"backendx_irctc.train_image\" order\u003d\"4\" x\u003d\"939\" y\u003d\"412\"\u003e\u003cpath name\u003d\"backendx_irctc\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"6\" name\u003d\"train_route\" fq-name\u003d\"backendx_irctc.train_route\" order\u003d\"5\" x\u003d\"479\" y\u003d\"510\"\u003e\u003cpath name\u003d\"backendx_irctc\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"7\" name\u003d\"train_schedule\" fq-name\u003d\"backendx_irctc.train_schedule\" order\u003d\"6\" x\u003d\"479\" y\u003d\"326\"\u003e\u003cpath name\u003d\"backendx_irctc\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"8\" name\u003d\"train_seats\" fq-name\u003d\"backendx_irctc.train_seats\" order\u003d\"7\" x\u003d\"249\" y\u003d\"441\"\u003e\u003cpath name\u003d\"backendx_irctc\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"9\" name\u003d\"trains\" fq-name\u003d\"backendx_irctc.trains\" order\u003d\"8\" x\u003d\"709\" y\u003d\"326\"\u003e\u003cpath name\u003d\"backendx_irctc\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"10\" name\u003d\"users\" fq-name\u003d\"backendx_irctc.users\" order\u003d\"9\" border-width\u003d\"3\" x\u003d\"527\" y\u003d\"54\"\u003e\u003cpath name\u003d\"backendx_irctc\"/\u003e\u003c/entity\u003e\u003c/data-source\u003e\u003c/entities\u003e\u003crelations\u003e\u003crelation name\u003d\"FKg23xsssayx3p1pqc9g8cbgm8p\" fq-name\u003d\"backendx_irctc.booking_passengers.FKg23xsssayx3p1pqc9g8cbgm8p\" type\u003d\"fk\" pk-ref\u003d\"2\" fk-ref\u003d\"1\"/\u003e\u003crelation name\u003d\"FKc52o2b1jkxttngufqp3t7jr3h\" fq-name\u003d\"backendx_irctc.payments.FKc52o2b1jkxttngufqp3t7jr3h\" type\u003d\"fk\" pk-ref\u003d\"2\" fk-ref\u003d\"3\"/\u003e\u003crelation name\u003d\"FKl5gh71pcprd026iucetr4yqpu\" fq-name\u003d\"backendx_irctc.bookings.FKl5gh71pcprd026iucetr4yqpu\" type\u003d\"fk\" pk-ref\u003d\"4\" fk-ref\u003d\"2\"\u003e\u003cbend type\u003d\"abs\" x\u003d\"479\" y\u003d\"254\"/\u003e\u003cbend type\u003d\"abs\" x\u003d\"709\" y\u003d\"254\"/\u003e\u003c/relation\u003e\u003crelation name\u003d\"FKp29v5a33m859jxlp2gbcl92qm\" fq-name\u003d\"backendx_irctc.bookings.FKp29v5a33m859jxlp2gbcl92qm\" type\u003d\"fk\" pk-ref\u003d\"4\" fk-ref\u003d\"2\"\u003e\u003cbend type\u003d\"abs\" x\u003d\"479\" y\u003d\"275\"/\u003e\u003cbend type\u003d\"abs\" x\u003d\"709\" y\u003d\"275\"/\u003e\u003c/relation\u003e\u003crelation name\u003d\"FKrkd8kc702fjtk5qx8ynep1k9t\" fq-name\u003d\"backendx_irctc.train_route.FKrkd8kc702fjtk5qx8ynep1k9t\" type\u003d\"fk\" pk-ref\u003d\"4\" fk-ref\u003d\"6\"/\u003e\u003crelation name\u003d\"FKblibbuoiigmcn7itc7b9pvq89\" fq-name\u003d\"backendx_irctc.trains.FKblibbuoiigmcn7itc7b9pvq89\" type\u003d\"fk\" pk-ref\u003d\"4\" fk-ref\u003d\"9\"/\u003e\u003crelation name\u003d\"FKqkipp9776vgttfkic1c9f94rs\" fq-name\u003d\"backendx_irctc.trains.FKqkipp9776vgttfkic1c9f94rs\" type\u003d\"fk\" pk-ref\u003d\"4\" fk-ref\u003d\"9\"/\u003e\u003crelation name\u003d\"FK109f1woi2m2hivotr5s3gwfti\" fq-name\u003d\"backendx_irctc.trains.FK109f1woi2m2hivotr5s3gwfti\" type\u003d\"fk\" pk-ref\u003d\"5\" fk-ref\u003d\"9\"/\u003e\u003crelation name\u003d\"FKkm004phf6mufgnkpintbuomdf\" fq-name\u003d\"backendx_irctc.bookings.FKkm004phf6mufgnkpintbuomdf\" type\u003d\"fk\" pk-ref\u003d\"7\" fk-ref\u003d\"2\"/\u003e\u003crelation name\u003d\"FKis9813cg7o6889wm2cx27jfmf\" fq-name\u003d\"backendx_irctc.train_seats.FKis9813cg7o6889wm2cx27jfmf\" type\u003d\"fk\" pk-ref\u003d\"7\" fk-ref\u003d\"8\"/\u003e\u003crelation name\u003d\"FK11tki5yh4ktf952op8io86xn\" fq-name\u003d\"backendx_irctc.train_route.FK11tki5yh4ktf952op8io86xn\" type\u003d\"fk\" pk-ref\u003d\"9\" fk-ref\u003d\"6\"/\u003e\u003crelation name\u003d\"FKqham8q9f3c2hnrsd8pysh7lmv\" fq-name\u003d\"backendx_irctc.train_schedule.FKqham8q9f3c2hnrsd8pysh7lmv\" type\u003d\"fk\" pk-ref\u003d\"9\" fk-ref\u003d\"7\"/\u003e\u003crelation name\u003d\"FKeyog2oic85xg7hsu2je2lx3s6\" fq-name\u003d\"backendx_irctc.bookings.FKeyog2oic85xg7hsu2je2lx3s6\" type\u003d\"fk\" pk-ref\u003d\"10\" fk-ref\u003d\"2\"/\u003e\u003c/relations\u003e\u003c/diagram\u003e"}}}}},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
